@@ -1,0 +1,72 @@
+*{
+    text-transform: uppercase;
+}
+body{
+    background-color: blueviolet;
+}
+.container-titles{
+    display: flex;
+    justify-content: space-around;
+}
+.container-sides{
+cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+}
+
+ 
+
+
+img{
+    height: 90px;
+    margin:14px;
+
+    border: 2px solid rgb(122, 28, 28);
+}
+.sel:hover{
+    border: rgba(29, 2, 4, 0.014);
+}
+
+
+input{
+    background-color: rgb(0, 0, 0);
+    border:blueviolet;
+    height: 60px;
+    width: 190px;
+    margin-left: 80px;
+    color: antiquewhite;
+    padding: 10px;
+font-size: 30px;
+    
+
+}
+.output{
+margin-left:14em;
+
+}
+#vs{
+    width:100px;
+    background-color: blueviolet;
+    color: rgb(223, 30, 30);
+font-size: 57px;
+font-weight: 300;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+button{
+    height: 30px;
+    background-color: blueviolet;
+    border: 2px solid rgb(25, 23, 26);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#btn{
+    margin: 59px;
+}
+button:hover{
+    background-color: crimson;
+}
+#wins,#loses,#draws{
+    color:crimson;
+}
